@@ -1,3 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+#define QTD_TERRITORIOS 5
+
+//Definição da estrutura Terittório
+typedef struct {
+    char nome[50];
+    char corExercito[10];
+    int tropas;
+} Território;
+
+int main()
+
+
+
+
+
 // ============================================================================
 //         PROJETO WAR ESTRUTURADO - DESAFIO DE CÓDIGO
 // ============================================================================
