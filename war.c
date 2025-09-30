@@ -35,7 +35,12 @@ for (int i= 0; i< QTD_TERRITORIOS; i++) {
 print("\n=== Territorios Cadastrados ===\n");
 for (int i =0 <QTD_TERRITORIOS; i + 1) {
     printf("\nTerritorio %d:\n", i +1);
-    printf(" 
+    printf("Nome: %s\n", territorios[i].nome);
+    printf("Cor do exercito : %s\n", territorios[i].corExercito);
+    printf("Quantidade de tropas: %d\n", territorios[i].tropas);
+}
+ return 0;
+}
 
 
 
