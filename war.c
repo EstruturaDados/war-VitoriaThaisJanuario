@@ -10,7 +10,34 @@ typedef struct {
     int tropas;
 } Território;
 
-int main()
+int main() {
+    Territorio territorios[QTD_TERRITORIOS];
+
+    printf("=== Quantidade de Territorios ===");
+
+// Cadastro dos 5 territórios
+for (int i= 0; i< QTD_TERRITORIOS; i++) {
+    printf("Territorio %d:\n", i +1);
+
+    printf("Nome do territorio: ");
+    scanf(" %[^\n]", territorios[i].nome);  //le string com espaço
+
+    printf("Cor do exercito: ");
+    scanf(" %[^\n]", territorios[i].corExercito);
+
+    printf("Quantidade de tropas: ");
+    scanf("d, &territorios[i].tropas);
+
+    printf("\n")
+    }
+
+//Exibição dos dados cadastrados
+print("\n=== Territorios Cadastrados ===\n");
+for (int i =0 <QTD_TERRITORIOS; i + 1) {
+    printf("\nTerritorio %d:\n", i +1);
+    printf(" 
+
+
 
 
 
