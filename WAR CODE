@@ -2,3 +2,4 @@
 #include <string.h>
 
 #define QTD_TERRITORIOS 5
+git rm WAR CODE
